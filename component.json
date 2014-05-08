@@ -1,0 +1,10 @@
+{
+  "name": "node-office",
+  "repo": "bigmeech/node-office",
+  "description": "Read and Extract Data from Open Office Documents",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT"
+}

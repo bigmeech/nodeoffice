@@ -1,0 +1,14 @@
+{
+  "name": "Node-Office",
+  "description": "Read and extract Data from Office Files, Microsoft word, Powerpoint, Spreadsheet etc",
+  "author": "Larry Eliemenye <denachural@gmail.com>",
+  "version": "0.0.1",
+  "dependencies": {
+    "async": "*",
+    "xml2js": "*",
+    "adm-zip":"*"
+  },
+  "devDependencies": {
+	"mocha": "*"
+  }
+}
