@@ -4,4 +4,7 @@
  */
 
 var no = require("./lib/node-office");
-console.log(new no.NodeOffice("daggi.docx"));
+new no.readFile("loremipsum.docx",function(err, result){
+    if(err) throw err
+    else console.log(result)
+});

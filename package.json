@@ -1,8 +1,23 @@
 {
-  "name": "Node-Office",
+  "name": "nodeoffice",
   "description": "Read and extract Data from Office Files, Microsoft word, Powerpoint, Spreadsheet etc",
-  "author": "Larry Eliemenye <denachural@gmail.com>",
+  "author": {
+      "name":"Larry Eliemenye",
+      "email":"denachural@gmail.com"
+  },
   "version": "0.0.1",
+  "keywords":[
+      "office",
+      "msword",
+      "docx",
+      "pptx",
+      "xlsx"
+  ],
+  "homepage":"https://github.com/bigmeech/node-office",
+  "main":"./lib/node-office.js",
+  "directories":{
+     "lib":"./lib"
+  },
   "dependencies": {
     "async": "*",
     "xml2js": "*",
@@ -10,5 +25,22 @@
   },
   "devDependencies": {
 	"mocha": "*"
-  }
+  },
+  "repository":{
+      "type":"git",
+      "url":"https://github.com/bigmeech/node-office.git"
+  },
+  "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/bigmeech/node-office/master/LICENSE"
+        }
+  ],
+  "readme": "nodeoffice\n===========\n\nRead and extract Data from Office Files, Microsoft word, Powerpoint, Spreadsheet etc",
+  "readmeFilename": "README.md",
+  "bugs":{
+      "url":"https://github.com/bigmeech/node-office/issues"
+  },
+  "_id": "nodeoffice@0.0.1",
+  "_from": "nodeoffice@*"
 }
