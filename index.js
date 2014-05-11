@@ -3,8 +3,13 @@
  * Just a test for the Library
  */
 
-var no = require("./lib/node-office");
-new no.readFile("loremipsum.docx",function(err, result){
-    if(err) throw err
-    else console.log(result)
+var NodeOffice = require("./lib/node-office");
+NodeOffice.readFile("loremipsum.docx",function(err,bodyObject){
+
+
+    var paras = bodyObject.getParagraphs();
+    console.log(paras.length);
+    //console.log("using content")
 });
+
+
