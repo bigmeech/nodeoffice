@@ -21,7 +21,9 @@
   "dependencies": {
     "async": "*",
     "xml2js": "*",
-    "adm-zip":"*"
+    "adm-zip":"*",
+    "gm":"*"
+
   },
   "devDependencies": {
 	"mocha": "*"
