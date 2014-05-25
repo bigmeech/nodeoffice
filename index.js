@@ -5,7 +5,7 @@
 
 var NodeOffice = require("./lib/node-office");
 NodeOffice.readFile("Loremipsum.docx", function (err, bodyObject) {
-  var paras = bodyObject.getParagraphs();
+  /*var paras = bodyObject.getParagraphs();
   var runs = [];
   var content = ""
   //for each paragraph
@@ -17,7 +17,9 @@ NodeOffice.readFile("Loremipsum.docx", function (err, bodyObject) {
       content += bodyObject.getRunContent(run)+"\n";
     }
   }
-  console.log(content)
+  console.log(content)*/
+
+  var media = bodyObject.getMedia();
 });
 
 

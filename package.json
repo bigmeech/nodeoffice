@@ -22,7 +22,8 @@
     "async": "*",
     "xml2js": "*",
     "adm-zip":"*",
-    "gm":"*"
+    "gm":"*",
+    "webworker-threads":"*"
 
   },
   "devDependencies": {
