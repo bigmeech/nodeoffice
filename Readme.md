@@ -5,7 +5,7 @@
 
 ## Installation
 
-    $ npm install node-office
+    $ npm install nodeoffice
 
 ## API
 
