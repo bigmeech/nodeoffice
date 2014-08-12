@@ -7,9 +7,28 @@
 
     $ npm install nodeoffice
 
-## API
+## Usage
 
-
+```javascript
+var NodeOffice = require("./lib/node-office");
+NodeOffice.readFile("Loremipsum.docx", function (err, bodyObject) {
+  if(err) throw err
+  var paras = bodyObject.getParagraphs();
+  var runs = [];
+  var content = ""
+    
+  //for each paragraph
+  for (var paraIndex in paras) {
+    var paragraph = paras[paraIndex];
+    var runs = bodyObject.getRuns(paragraph);
+    for (var runIndex in runs){
+      var run = runs[runIndex];
+      content += bodyObject.getRunContent(run)+"\n";
+    }
+  }
+  console.log(content)
+})
+```
 
 ## License
 
