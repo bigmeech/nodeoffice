@@ -1,5 +1,7 @@
 const { expect } = require('chai');
 const Importer = require('../lib/importer');
+
+// if you add content to the sample docx file, please update the paragraph ids used in the tests
 describe('importer', function() {
     it('should throw an error for an unrecognised file type', () => {
         const someFileType = './path/to/docs.mov';
