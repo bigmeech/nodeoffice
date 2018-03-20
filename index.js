@@ -3,7 +3,7 @@
  * Example Usage
  */
 
-var NodeOffice = require("./lib/node-office");
+var NodeOffice = require("./lib/index");
 NodeOffice.readFile("Loremipsum.docx", function (err, bodyObject) {
   /*var paras = bodyObject.getParagraphs();
   var runs = [];
